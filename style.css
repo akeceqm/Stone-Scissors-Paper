@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+  padding: 100px;
+  background-color: #fff;
+  margin: auto;
+}
+
+h1{
+  padding-bottom: 2%;
+  padding-top: 5%;
+}
+
+.game{
+  text-align: center;
+  width: 600px;
+  height: 420px;
+  background-color: white;
+  border-radius: 2%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.options_input{
+  display: flex;
+  width: 300px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.option{
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: aquamarine;
+  border-radius: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.choice{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.jsh{
+  font-size: 20px;
+  color: #0026a4;
+  margin-right: 20px; 
+  margin-left: 20px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.computer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#resetButton{
+  width: 100px;
+  height: 50px;
+  border-radius: 5%;
+  background-color: white;
+  border:1px solid #000;
+  cursor: pointer;
+}
+
+#result{
+  font-size: 24px;
+  color: red;
+}

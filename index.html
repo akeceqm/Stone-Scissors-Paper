@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>Камень-Ножницы-Бумага</h1>
+    <div>
+      <p>Колво побед</p>
+      <h4 id="countWin">0</h4>
+      <p>Колво поражений</p>
+      <h4 id="countLose">0</h4>
+    </div>
+    <div>
+      <p >Итог</p>
+      <div id="result"></div>
+    </div>
+    <div class="choice">
+      <div class="user">
+        <p>User:</p>
+        <div id="choiceUser" class="jsh"></div>
+      </div>
+      <div class="computer">
+        <p>Computer:</p>
+        <div id="choiceComputer" class="jsh"></div>
+      </div>
+    </div>
+    <div class="options_input">
+      <button class="option" id="stone" onclick="clickButton(this)" value="Камень">Камень</button>
+      <button class="option" id="scissors" onclick="clickButton(this)" value="Ножницы">Ножницы</button>
+      <button class="option" id="paper" onclick="clickButton(this)" value="Бумага">Бумага</button>
+    </div>
+      <button id="resetButton">reset</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
